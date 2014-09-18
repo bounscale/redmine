@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+ruby '2.0.0'
 
 gem "rails", "3.2.13"
 gem "jquery-rails", "~> 2.0.2"
@@ -9,7 +10,7 @@ gem "builder", "3.0.0"
 gem 'rbpdf'
 gem 'request_store'
 gem "mime-types"
-
+gem "bounscale"
 
 group :ldap do
   gem "net-ldap", "~> 0.3.1"
