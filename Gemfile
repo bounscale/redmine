@@ -11,6 +11,7 @@ gem 'rbpdf'
 gem 'request_store'
 gem "mime-types"
 gem "bounscale"
+gem "unicorn"
 
 group :ldap do
   gem "net-ldap", "~> 0.3.1"
